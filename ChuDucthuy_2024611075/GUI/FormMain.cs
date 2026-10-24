@@ -16,5 +16,16 @@ namespace ChuDucthuy_2024611075.GUI
         {
             InitializeComponent();
         }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bánHàngPOSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormPOS frmPOS = new FormPOS();
+            frmPOS.Show();
+        }
     }
 }

@@ -36,16 +36,16 @@ namespace ChuDucthuy_2024611075
             {
                 MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                // Mở màn hình chính và ẩn màn hình đăng nhập
+                
                 FormMain frmMain = new FormMain();
-                this.Hide(); // Ẩn FormLogin
-                frmMain.ShowDialog(); // Mở FormMain
-                this.Close(); // Tắt hẳn ứng dụng khi tắt FormMain
+                this.Hide(); 
+                frmMain.ShowDialog(); 
+                this.Close(); 
             }
             else
             {
                 MessageBox.Show(result, "Lỗi đăng nhập", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        } // Đóng hàm btnLogin_Click
-    } // Đóng class FormLogin
-} // Đóng namespace
+        } 
+    } 
+} 
